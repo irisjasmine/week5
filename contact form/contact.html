@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM MANIPULATION CONTACT FORM</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="banner"></div>
+    <div class="contactForm">
+      <form id="contactForm" action="#">
+        <div class="inputBox">
+          <input
+            type="text"
+            id="firstname"
+            class="name"
+            placeholder="ex. John "
+            required
+            aria-required="true"
+            class="error"
+            aria-invalid="true"
+          />
+        </div>
+        <br />
+        <div class="inputBox">
+          <input
+            type="text"
+            id="lastname"
+            class="name"
+            placeholder="ex. Doe"
+            required
+            aria-required="true"
+            class="error"
+            aria-invalid="true"
+          />
+        </div>
+        <br />
+        <div class="inputBoxGender">
+          <p>Gender: </p><br />
+          <input
+            name="gender"
+            type="radio"
+            id="gender"
+            value="man"
+            class="error"
+            aria-invalid="true"
+          />
+          <label for="man">M</label><br />
+          <input
+            name="gender"
+            type="radio"
+            id="gender"
+            value="woman"
+            class="error"
+            aria-invalid="true"
+          />
+          <label for="woman">F</label>
+        </div>
+        <br />
+        <div class="inputBox">
+          <textarea
+            name="textarea"
+            id="textarea"
+            placeholder="Message ..."
+            required
+            aria-required="true"
+            class="error"
+            aria-invalid="true"
+          ></textarea>
+        </div>
+        <br />
+        <div class="submitbtn">
+          <button type="button" id="sumbitbtn" value="submit">SUMBIT</button>
+          <img src="pic.png" alt="picture" class="picture" />
+        </div>
+      </form>
+    </div>
+    <script src="./contact.js"></script>
+  </body>
+</html>

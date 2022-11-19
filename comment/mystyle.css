@@ -1,0 +1,51 @@
+.commentSection {
+  border: 1px solid navy;
+  width: 400px;
+  background-color: rgba(144, 144, 199, 0.151);
+  padding: 20px;
+}
+
+.addCommentSection > textarea {
+  resize: none;
+  border: 1px solid navy;
+  border-radius: 0;
+  width: 350px;
+  height: 50px;
+  padding: 5px;
+  overflow-x: hidden;
+  overflow-y:scroll;
+}
+
+.comment {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.addCommentSection {
+  display: inline-block;
+}
+
+.fixedComment {
+  border: 1px solid navy;
+  border-radius: 0;
+  width: auto;
+  height: 60px;
+  padding: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+#addbutton {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.addComment {
+  resize: none;
+  width: 450px;
+}
+
+.addCommentSection {
+  padding: 5px;
+}

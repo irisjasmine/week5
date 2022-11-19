@@ -1,0 +1,87 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(44, 84, 125),
+    rgb(48, 180, 203)
+  );
+}
+
+.homepage {
+  position: relative;
+  padding: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.homepage_icons {
+  display: inline-block;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.homepage_icons > img {
+  height: 150px;
+  width: 150px;
+}
+section {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.homepage_button {
+  margin: 20px;
+  padding: 10px;
+  border: 1.5px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2);
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.gamePage {
+  position: relative;
+  padding: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.playerOptions {
+  padding: 8px;
+  margin: 10px;
+  text-align: center;
+  display: inline;
+}
+
+.playerOptions{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+
+}
+
+button > img {
+  height: 75px;
+  width: 95px;
+}
+
+.gamePage > h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
